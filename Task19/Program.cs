@@ -10,7 +10,7 @@ string number = Console.ReadLine(); // 15715
                                    // 01234   
 if (number [0] == number [4] && number [1] == number [3])
 {
-    Console.WriteLine($"{number} Полиндром");
+    Console.WriteLine($"{number} Это те дроиды что вы ищите");
 }
 else 
 {
