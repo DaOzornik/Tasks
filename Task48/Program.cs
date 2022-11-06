@@ -3,8 +3,8 @@
 Выведите полученный массив на экран
 m=3 n4 */
 Random random = new Random();
-int rows = random.Next (3, 4); // rows и columns  переменные для размерности
-int columns = random.Next (3, 4);
+int rows = random.Next (4, 4); // rows и columns  переменные для размерности
+int columns = random.Next (4, 4);
 int[,] array = new int[rows, columns]; // ввели переменную массива (создали массив)
 FillArray(array);
 PrintArray(array);
