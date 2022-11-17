@@ -5,7 +5,8 @@
 5 9 2 3
 8 4 2 4 */
 
-/*int[,] table = new int[3, 4];
+
+int[,] table = new int[3, 4];
 FillArrayRandom(table);
 PrintArray(table);
 SortToLower(table);
@@ -57,39 +58,8 @@ void PrintArray(int[,] array)
         Console.WriteLine();
     }
 }
-*/
 
 
-        {
-            void Zadacha54()
-            {
-                int rows = 5;
-                int columns = 6;
-                int[,] array = new int[rows, columns];
-                FillArray(array);
-                PrintArray(array);
-                for (int i = 0; i < rows; i++)
-                {
-                    for (int j = columns - 1; j > 0; j--)
-                    {
-                        for (int k = 0; k < j; k++)
-                        {
-                            if (array[i, k] < array[i, k + 1]) ;
-                            {
-                                int temp = array[i, k];
-                                array[i, k] = array[i, k + 1];
-                                array[i, k + 1] = temp;
-                            }
-                        }
-                    }
-                }
-                Console.WriteLine();
-                Console.WriteLine("Filtred array");
-                PrintArray(array);
-            }
 
-            Zadacha54();
-        }
-    
 
 
